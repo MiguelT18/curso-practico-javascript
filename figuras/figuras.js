@@ -15,7 +15,7 @@ function areaCuadrado(lado) {
 console.groupEnd();
 
 // Código del triángulo
-console.group("Triángulos");
+console.group("Triángulos{");
 function perimetroTriangulo(lado1, lado2, base) {
   return lado1 + lado2 + base;
 }
