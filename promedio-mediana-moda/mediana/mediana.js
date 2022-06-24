@@ -21,7 +21,6 @@ function calculateMedian(list) {
   }
 
   let median;
-
   if (esPar(list.length)) {
     const element1 = list[halfList - 1];
     const element2 = list[halfList];
